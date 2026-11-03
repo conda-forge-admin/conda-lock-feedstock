@@ -39,7 +39,7 @@ requirements:
     - click >=8.0
     - click-default-group
     - crashtest >=0.4.1,<0.5.0
-    - dulwich >=0.22.6,<0.25.0
+    - dulwich >=1.2.20,<2
     - ensureconda >=1.4.7
     - filelock
     - gitpython >=3.1.30
