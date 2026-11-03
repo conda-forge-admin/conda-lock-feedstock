@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "4.0.4"
+  version: "4.0.5"
   python_check_max: "3.14"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/conda-lock/conda_lock-${{ version }}.tar.gz
-  sha256: 90c1111958d756f1bb3480312cb0303d0dab909b04fda4aaaefb352e6621113f
+  sha256: a5eecb0a5f57c122302eaaf0061d7df2304d5684e26f6beec8da885851cdd6ff
 
 build:
   number: 0
@@ -39,7 +39,7 @@ requirements:
     - click >=8.0
     - click-default-group
     - crashtest >=0.4.1,<0.5.0
-    - dulwich >=0.22.6,<0.25.0
+    - dulwich >=1.2.20,<2
     - ensureconda >=1.4.7
     - filelock
     - gitpython >=3.1.30
