@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "4.0.5"
+  version: "4.1.0"
   python_check_max: "3.14"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/conda-lock/conda_lock-${{ version }}.tar.gz
-  sha256: a5eecb0a5f57c122302eaaf0061d7df2304d5684e26f6beec8da885851cdd6ff
+  sha256: 1556b78f2051bc82409f68c6408c67ae15400f129206752f196d00f1d011b6de
 
 build:
   number: 0
